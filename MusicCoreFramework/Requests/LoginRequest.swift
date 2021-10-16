@@ -9,7 +9,7 @@ import Foundation
 
 public struct LoginRequest: Codable {
     
-    public static func loginRequestMethod() {
+    public static func loginRequest() {
         print("login Request Method")
     }
 }
