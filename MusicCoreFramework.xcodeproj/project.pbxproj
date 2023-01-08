@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5580E9E9273FEE5E005E44C2 /* CoreEndPointUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580E9E8273FEE5E005E44C2 /* CoreEndPointUtility.swift */; };
+		5580E9EB273FF08C005E44C2 /* MusicServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580E9EA273FF08C005E44C2 /* MusicServiceManager.swift */; };
+		5580E9ED273FF0BD005E44C2 /* MusicAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580E9EC273FF0BD005E44C2 /* MusicAPIClient.swift */; };
 		55B23D8F271A75590024D3A2 /* MusicCoreFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B23D85271A75590024D3A2 /* MusicCoreFramework.framework */; };
 		55B23D94271A75590024D3A2 /* MusicCoreFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B23D93271A75590024D3A2 /* MusicCoreFrameworkTests.swift */; };
 		55B23D96271A75590024D3A2 /* MusicCoreFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B23D88271A75590024D3A2 /* MusicCoreFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55B23DA5271A77050024D3A2 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B23DA4271A77050024D3A2 /* LoginRequest.swift */; };
-		55B23DA8271A771D0024D3A2 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B23DA7271A771D0024D3A2 /* LoginResponse.swift */; };
+		55B23DA5271A77050024D3A2 /* UserLoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B23DA4271A77050024D3A2 /* UserLoginRequest.swift */; };
+		55B23DA8271A771D0024D3A2 /* UserLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B23DA7271A771D0024D3A2 /* UserLoginResponse.swift */; };
 		E3C6C680E391B06FFE87EDC4 /* libPods-MusicCoreFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBC0C33637A63C7FC71626E /* libPods-MusicCoreFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -27,14 +30,17 @@
 
 /* Begin PBXFileReference section */
 		39B84953ED1DFE374CB43A6E /* Pods-MusicCoreFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCoreFramework.release.xcconfig"; path = "Target Support Files/Pods-MusicCoreFramework/Pods-MusicCoreFramework.release.xcconfig"; sourceTree = "<group>"; };
+		5580E9E8273FEE5E005E44C2 /* CoreEndPointUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreEndPointUtility.swift; sourceTree = "<group>"; };
+		5580E9EA273FF08C005E44C2 /* MusicServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicServiceManager.swift; sourceTree = "<group>"; };
+		5580E9EC273FF0BD005E44C2 /* MusicAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAPIClient.swift; sourceTree = "<group>"; };
 		55B23D85271A75590024D3A2 /* MusicCoreFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MusicCoreFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B23D88271A75590024D3A2 /* MusicCoreFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicCoreFramework.h; sourceTree = "<group>"; };
 		55B23D89271A75590024D3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B23D8E271A75590024D3A2 /* MusicCoreFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicCoreFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B23D93271A75590024D3A2 /* MusicCoreFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCoreFrameworkTests.swift; sourceTree = "<group>"; };
 		55B23D95271A75590024D3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55B23DA4271A77050024D3A2 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
-		55B23DA7271A771D0024D3A2 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		55B23DA4271A77050024D3A2 /* UserLoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginRequest.swift; sourceTree = "<group>"; };
+		55B23DA7271A771D0024D3A2 /* UserLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginResponse.swift; sourceTree = "<group>"; };
 		CCBC0C33637A63C7FC71626E /* libPods-MusicCoreFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicCoreFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76A974DC0867EBF875000F4 /* Pods-MusicCoreFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCoreFramework.debug.xcconfig"; path = "Target Support Files/Pods-MusicCoreFramework/Pods-MusicCoreFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +96,9 @@
 		55B23D87271A75590024D3A2 /* MusicCoreFramework */ = {
 			isa = PBXGroup;
 			children = (
+				5580E9E8273FEE5E005E44C2 /* CoreEndPointUtility.swift */,
+				5580E9EA273FF08C005E44C2 /* MusicServiceManager.swift */,
+				5580E9EC273FF0BD005E44C2 /* MusicAPIClient.swift */,
 				55B23DA3271A76ED0024D3A2 /* Requests */,
 				55B23DA6271A770C0024D3A2 /* Responses */,
 				55B23D88271A75590024D3A2 /* MusicCoreFramework.h */,
@@ -110,7 +119,7 @@
 		55B23DA3271A76ED0024D3A2 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				55B23DA4271A77050024D3A2 /* LoginRequest.swift */,
+				55B23DA4271A77050024D3A2 /* UserLoginRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -118,7 +127,7 @@
 		55B23DA6271A770C0024D3A2 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				55B23DA7271A771D0024D3A2 /* LoginResponse.swift */,
+				55B23DA7271A771D0024D3A2 /* UserLoginResponse.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -268,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B23DA8271A771D0024D3A2 /* LoginResponse.swift in Sources */,
-				55B23DA5271A77050024D3A2 /* LoginRequest.swift in Sources */,
+				5580E9E9273FEE5E005E44C2 /* CoreEndPointUtility.swift in Sources */,
+				5580E9EB273FF08C005E44C2 /* MusicServiceManager.swift in Sources */,
+				55B23DA8271A771D0024D3A2 /* UserLoginResponse.swift in Sources */,
+				5580E9ED273FF0BD005E44C2 /* MusicAPIClient.swift in Sources */,
+				55B23DA5271A77050024D3A2 /* UserLoginRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
